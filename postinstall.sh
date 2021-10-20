@@ -50,6 +50,7 @@ PKGS=(
 'kvantum-qt5'
 'latte-dock-git'
 'teams'
+'nextcloud-client'
 )
 
 for PKG in "${PKGS[@]}"; do
