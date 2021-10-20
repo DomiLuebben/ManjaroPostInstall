@@ -4,16 +4,11 @@
 
 echo -e "\nINSTALLING ADDITIONAL SOFTWARE\n"
 
-echo "CLONING: YAY"
-cd ~
-git clone "https://aur.archlinux.org/yay.git"
-cd ${HOME}/yay
-makepkg -si --noconfirm
-cd ~
-touch "$HOME/.cache/zshhistory"
-git clone "https://github.com/ChrisTitusTech/zsh"
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $HOME/powerlevel10k
-ln -s "$HOME/zsh/.zshrc" $HOME/.zshrc
+echo -e "\INSTALLING FAKEROOT\n"
+pacman -Sy fakeroot
+
+echo -e "\INSTALLING YAY\n"
+pacman -S yay
 
 #Packages to install
 PKGS=(
@@ -60,6 +55,11 @@ done
 #Packages to remove
 PKGS=(
 'yakuake'
+'elisa'
+'onlyoffice-desktopeditors'
+'matray'
+'k3b'
+
 
 )
 
