@@ -62,5 +62,9 @@ for PKG in "${PKGS[@]}"; do
     yay -R --noconfirm $PKG
 done
 
+#Gimp 2.10 config file
+wget https://nextcloud.shihonkindojo.de/s/kyHAY5iHTC7Lz8H
+tar xzvf GIMP.tar.gz -C $HOME/.config
+
 echo -e "\nDone!\n"
 exit
