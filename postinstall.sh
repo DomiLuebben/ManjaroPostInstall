@@ -63,8 +63,9 @@ for PKG in "${PKGS[@]}"; do
 done
 
 #Gimp 2.10 config file
-wget https://nextcloud.shihonkindojo.de/s/kyHAY5iHTC7Lz8H
-tar xzvf GIMP.tar.gz -C $HOME/.config
+wget https://nextcloud.shihonkindojo.de/s/kyHAY5iHTC7Lz8H &&
+tar xzvf GIMP.tar.gz -C $HOME/.config &&
+rm GIMP.tar.gz
 
 echo -e "\nDone!\n"
 exit
