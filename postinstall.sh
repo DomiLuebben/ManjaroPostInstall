@@ -17,6 +17,7 @@ PKGS=(
 'gcc'
 'google-chrome' # Chrome Browser
 'dxvk-bin' # DXVK DirectX to Vulcan
+'latte-dock-git'
 'lightly-git'
 'lightlyshaders-git'
 'mangohud' # Gaming FPS Counter
