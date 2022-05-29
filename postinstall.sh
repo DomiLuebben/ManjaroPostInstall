@@ -32,7 +32,6 @@ PKGS=(
 'ttf-meslo' # Nerdfont package
 'ttf-roboto'
 'vlc'
-'obs-studio'
 'libreoffice-fresh'
 'zoom' # video conferences
 'lutris'
