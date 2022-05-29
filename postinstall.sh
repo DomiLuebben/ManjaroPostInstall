@@ -12,6 +12,7 @@ pacman -S yay
 
 #Packages to install
 PKGS=(
+'plasma-wayland-session'
 'awesome-terminal-fonts'
 'binutils'
 'gcc'
