@@ -17,7 +17,7 @@ PKGS=(
 'gcc'
 'google-chrome' # Chrome Browser
 'dxvk-bin' # DXVK DirectX to Vulcan
-'latte-dock-git'
+'latte-dock'
 'lightly-git'
 'lightlyshaders-git'
 'mangohud' # Gaming FPS Counter
@@ -38,8 +38,6 @@ PKGS=(
 'gimp'
 'krita'
 'kvantum-qt5'
-'latte-dock-git'
-'teams'
 'nextcloud-client'
 'appappmenu-gtk-module'
 )
