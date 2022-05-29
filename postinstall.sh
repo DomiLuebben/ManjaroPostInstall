@@ -40,6 +40,7 @@ PKGS=(
 'kvantum-qt5'
 'nextcloud-client'
 'appappmenu-gtk-module'
+'mpv'
 )
 
 for PKG in "${PKGS[@]}"; do
